@@ -20,7 +20,77 @@ namespace ADVC_02
                 new Product { Id=10, Name="Jacket", Category="Clothing", Price=120, Stock=15 }
             };
 
+            #region Test1
 
+            //List<Product> p1 = FiltirtionFunctions.SearchProduct(catalog, p => p.Category == "Electronics");
+            //List<Product> p2 = FiltirtionFunctions.SearchProduct(catalog, p => p.Price < 50);
+            //List<Product> p3 = FiltirtionFunctions.SearchProduct(catalog, p => p.Stock > 0);
+            //List<Product> p4 = FiltirtionFunctions.SearchProduct(catalog, p => p.Category == "Clothing" && p.Price < 100);
+            //foreach (Product p in p1)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p2)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p3)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p4)
+            //{
+            //    Console.WriteLine(p);
+            //}
+
+            // using predicate delegate because fiteration happen throw condetions that return bool
+
+
+            #endregion
+
+
+            #region Task 03 : Custom Report Generator
+
+            //Console.WriteLine("Short Report: ");
+            //FiltirtionFunctions.PrintReport(catalog, p => Console.WriteLine($"{p.Name} - {p.Price}"));
+
+            //Console.WriteLine("Detailed Report: ");
+            //FiltirtionFunctions.PrintReport(catalog, p => Console.WriteLine($"[{p.Category}]{p.Name} | price: {p.Price} | stock: {p.Stock}"));
+
+            // use Action deleget because no return type 
+
+            #endregion
+
+
+
+            #region Transform Products
+
+            //Console.WriteLine("--- Summary List ---");
+            //FiltirtionFunctions.TransformProducts(catalog, p => $"{p.Name} (${p.Price})");
+
+            //Console.WriteLine("--- Price Labels ---");
+            //FiltirtionFunctions.TransformProducts(catalog, p => p.Price > 100 ? $"{p.Name}: Expensive!" : $"{p.Name}: Affordable");
+
+            // use Func because the return type was string
+
+            #endregion
+
+
+            #region Filter Products
+
+            //List<Product> products = FiltirtionFunctions.FilterProducts(catalog, p => p.Stock < 20);
+            //Console.WriteLine("--- Low-Stock Alert: ---");
+            //foreach (Product product in products)
+            //{
+            //    Console.WriteLine($"[LOW STOCK] {product.Name}: only {product.Stock} left!");
+            //}
+
+            //// using predicate delegate because fiteration happen throw condetions that return bool
+
+            #endregion
 
 
 
