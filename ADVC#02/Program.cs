@@ -52,6 +52,19 @@ namespace ADVC_02
             #endregion
 
 
+            #region Task 03 : Custom Report Generator
+
+            //Console.WriteLine("Short Report: ");
+            //FiltirtionFunctions.PrintReport(catalog, p => Console.WriteLine($"{p.Name} - {p.Price}"));
+
+            //Console.WriteLine("Detailed Report: ");
+            //FiltirtionFunctions.PrintReport(catalog, p => Console.WriteLine($"[{p.Category}]{p.Name} | price: {p.Price} | stock: {p.Stock}"));
+
+            // use Action deleget because no return type 
+
+            #endregion
+
+
 
 
         }
