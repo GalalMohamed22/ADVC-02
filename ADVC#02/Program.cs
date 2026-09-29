@@ -20,6 +20,36 @@ namespace ADVC_02
                 new Product { Id=10, Name="Jacket", Category="Clothing", Price=120, Stock=15 }
             };
 
+            #region Test1
+
+            //List<Product> p1 = FiltirtionFunctions.SearchProduct(catalog, p => p.Category == "Electronics");
+            //List<Product> p2 = FiltirtionFunctions.SearchProduct(catalog, p => p.Price < 50);
+            //List<Product> p3 = FiltirtionFunctions.SearchProduct(catalog, p => p.Stock > 0);
+            //List<Product> p4 = FiltirtionFunctions.SearchProduct(catalog, p => p.Category == "Clothing" && p.Price < 100);
+            //foreach (Product p in p1)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p2)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p3)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            //Console.WriteLine("///////////////////////////////");
+            //foreach (Product p in p4)
+            //{
+            //    Console.WriteLine(p);
+            //}
+
+            // using predicate delegate because fiteration happen throw condetions that return bool
+
+
+            #endregion
 
 
 
