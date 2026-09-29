@@ -79,7 +79,18 @@ namespace ADVC_02
             #endregion
 
 
+            #region Filter Products
 
+            //List<Product> products = FiltirtionFunctions.FilterProducts(catalog, p => p.Stock < 20);
+            //Console.WriteLine("--- Low-Stock Alert: ---");
+            //foreach (Product product in products)
+            //{
+            //    Console.WriteLine($"[LOW STOCK] {product.Name}: only {product.Stock} left!");
+            //}
+
+            //// using predicate delegate because fiteration happen throw condetions that return bool
+
+            #endregion
 
 
 
