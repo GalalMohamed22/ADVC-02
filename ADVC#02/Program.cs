@@ -66,6 +66,22 @@ namespace ADVC_02
 
 
 
+            #region Transform Products
+
+            //Console.WriteLine("--- Summary List ---");
+            //FiltirtionFunctions.TransformProducts(catalog, p => $"{p.Name} (${p.Price})");
+
+            //Console.WriteLine("--- Price Labels ---");
+            //FiltirtionFunctions.TransformProducts(catalog, p => p.Price > 100 ? $"{p.Name}: Expensive!" : $"{p.Name}: Affordable");
+
+            // use Func because the return type was string
+
+            #endregion
+
+
+
+
+
 
         }
 
